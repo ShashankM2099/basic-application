@@ -25,6 +25,9 @@ function Counter() {
     document.querySelector(
       ".countTrack"
     ).textContent = `You have clicked me ${count} timess...`;
+    if (count === 5) {
+      alert("Fast Five");
+    }
   });
   return (
     //Using a React.Fragment to get rid of <div> tags
