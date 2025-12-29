@@ -29,18 +29,14 @@ function Counter() {
   return (
     //Using a React.Fragment to get rid of <div> tags
     <>
-      <h1 className="h1tag">Counter Page</h1>
+      <h1>Counter Page</h1>
       {/* setting the userName to the props */}
       <SetName userName={FinalName} />
-      <button
-        className="button-86"
-        type="submit"
-        onClick={() => setCount(count + 1)}
-      >
+      <button type="submit" onClick={() => setCount(count + 1)}>
         Click Me
       </button>
       <p className="countTrack"></p>
-      <button className="btn-primary" type="reset" onClick={() => setCount(0)}>
+      <button type="reset" onClick={() => setCount(0)}>
         Reset
       </button>
     </>
