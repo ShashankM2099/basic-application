@@ -35,11 +35,34 @@ function Counter() {
       <h1>Counter Page</h1>
       {/* setting the userName to the props */}
       <SetName userName={FinalName} />
-      <button type="submit" onClick={() => setCount(count + 1)}>
+      <button
+        variant="primary"
+        type="submit"
+        onClick={() => setCount(count + 1)}
+        style={{
+          backgroundColor: "#28a745",
+          color: "white",
+          padding: "10px 16px",
+          border: "none",
+          borderRadius: "6px",
+          cursor: "pointer",
+        }}
+      >
         Click Me
       </button>
       <p className="countTrack"></p>
-      <button type="reset" onClick={() => setCount(0)}>
+      <button
+        type="reset"
+        onClick={() => setCount(0)}
+        style={{
+          backgroundColor: "#dc3545",
+          color: "white",
+          padding: "10px 16px",
+          border: "none",
+          borderRadius: "6px",
+          cursor: "pointer",
+        }}
+      >
         Reset
       </button>
     </>
