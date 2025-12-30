@@ -1,6 +1,7 @@
 //imported the component
 import Counter from "./components/Counter";
 import Color from "./components/Color";
+import CallingAPI from "./components/CallingAPI";
 import { useEffect } from "react";
 function App() {
   function SetTitle() {
@@ -14,6 +15,8 @@ function App() {
       <SetTitle />
       <Counter />
       <Color />
+      {/* Importing callingAPI component here */}
+      <CallingAPI />
     </>
   );
 }
