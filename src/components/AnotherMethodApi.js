@@ -12,7 +12,7 @@ function AnotherMethodApi() {
   return (
     <>
       <h1>Using fetch method to print out the data in the API call</h1>
-      {data?.map((user) => (
+      {data?.data?.map((user) => (
         <>
           <p>First Name: {user.firstname}</p>
           <p>Last Name: {user.lastname}</p>
@@ -22,7 +22,7 @@ function AnotherMethodApi() {
           <p>Mac Address: {user.macAddress}</p>
           <p>Website: {user.website}</p>
           <p>Image: {user.image}</p>
-          <p></p>
+          <p>----------</p>
           <p></p>
         </>
       ))}

@@ -20,7 +20,8 @@ function Counter() {
       </div>
     );
   }
-  useEffect(() => {
+  //arrow function
+  const countTracker = () => {
     //Got the paragraph and set it to a counter
     document.querySelector(
       ".countTrack"
@@ -28,6 +29,9 @@ function Counter() {
     if (count === 5) {
       alert("Fast Five");
     }
+  };
+  useEffect(() => {
+    countTracker();
   });
   return (
     //Using a React.Fragment to get rid of <div> tags
