@@ -17,6 +17,9 @@ export default function CallingAxois() {
   return (
     <>
       <h1>Using Axios to make an API call in this component</h1>
+      {data?.data?.map((user) => {
+        <></>;
+      })}
     </>
   );
 }
