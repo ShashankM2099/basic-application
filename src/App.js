@@ -20,6 +20,7 @@ function App() {
       <CallingAPI />
       {/* Another method of calling API */}
       <AnotherMethodApi />
+      {/* Using Axios in this component to make an API call */}
     </>
   );
 }
