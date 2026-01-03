@@ -30,6 +30,9 @@ function Counter() {
       alert("Fast Five");
     }
   };
+  const increaseCount = () => {
+    return setCount(count + 1);
+  };
   useEffect(() => {
     countTracker();
   });
@@ -42,7 +45,7 @@ function Counter() {
       <button
         variant="primary"
         type="submit"
-        onClick={() => setCount(count + 1)}
+        onClick={() => increaseCount()}
         style={{
           backgroundColor: "#28a745",
           color: "white",
