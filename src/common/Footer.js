@@ -17,7 +17,7 @@ export default function Footer() {
             opacity: "80%",
           }}
         >
-          <p>Footer Tag</p>
+          <p>Made with using just the basics in React</p>
         </footer>
       </>
     </>

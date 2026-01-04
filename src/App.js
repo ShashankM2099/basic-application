@@ -15,6 +15,7 @@ function App() {
   }
   return (
     <>
+      <Header />
       {/* Calling the component using the import statement and calling it here */}
       <SetTitle />
       <Counter />
@@ -24,7 +25,7 @@ function App() {
       {/* Another method of calling API */}
       <AnotherMethodApi />
       {/* Using Axios in this component to make an API call */}
-      <Header />
+
       <Footer />
     </>
   );
