@@ -21,7 +21,7 @@ function App() {
         <nav>
           <Link to="/">Counter</Link> | <Link to="/form">Form</Link> |{" "}
           <Link to="/color">Color</Link> | <Link to="/api">Fetch API</Link> |{" "}
-          <Link to="/axios">Axios</Link>
+          <Link to="/axios">Axios</Link> | <Link to="/card">About US</Link>{" "}
         </nav>
         {/* <RouterCode /> */}
       </>
