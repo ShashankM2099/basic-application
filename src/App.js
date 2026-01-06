@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Footer from "./common/Footer";
 import { Link } from "react-router-dom";
 //importing RoutingCode
-import RouterCode from "./components/RouterCode";
+// import RouterCode from "./components/RouterCode";
 function App() {
   function SetTitle() {
     useEffect(() => {
