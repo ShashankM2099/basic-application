@@ -1,3 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  background: #3f64bc;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+}
 .routes-container {
   max-width: 900px;
   margin: 40px auto;
@@ -91,10 +115,6 @@
   --dark-grey: #1b1b32;
   --light-grey: #f5f6f7;
   --dark-orange: #f89808;
-}
-
-body {
-  background-color: var(--dark-grey);
 }
 
 .flex-container {

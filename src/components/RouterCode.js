@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 //importing the necessary components to use the react-router
 import Counter from "./Counter";
 import Form from "./Form";
@@ -10,12 +10,6 @@ import CardStyle from "./CardStyle";
 export default function RouterCode() {
   return (
     <>
-      <nav className="routes-container" style={{ padding: "10px" }}>
-        <Link to="/">Counter</Link> | <Link to="/form">Form</Link> |{" "}
-        <Link to="/color">Color</Link> | <Link to="/api">Fetch API</Link> |{" "}
-        <Link to="/axios">Axios</Link> | <Link to="/card">About US</Link>
-      </nav>
-
       <Routes>
         <Route path="/" element={<Counter />} />
         <Route path="/form" element={<Form />} />
