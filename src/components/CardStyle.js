@@ -1,6 +1,6 @@
 //using props to pass parameters
 import { Card } from "./Card";
-export default function CardStyle(props) {
+export default function CardStyle() {
   const profileInfo = [
     {
       id: 1,

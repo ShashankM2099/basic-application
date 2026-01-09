@@ -20,7 +20,7 @@ function CallingAPI() {
     <>
       <h1>Calling an API using XMLHttpRequest Method</h1>
       <button onClick={handleClick}>Get Data</button>
-      {data ? <>{JSON.stringify(data)}</> : <></>}
+      {/* {data ? <>{JSON.stringify(data)}</> : <></>} */}
       <>
         {user ? (
           <>

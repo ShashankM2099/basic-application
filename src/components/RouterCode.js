@@ -23,6 +23,7 @@ export default function RouterCode() {
         <Route path="/api" element={<CallingAPI />} />
         <Route path="/axios" element={<CallingAxios />} />
         <Route path="/card" element={<CardStyle />} />
+        <Route path="*" element={<h2>Page Not Found</h2>} />
       </Routes>
     </>
   );
