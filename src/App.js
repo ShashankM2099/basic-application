@@ -2,29 +2,21 @@
 import Header from "./common/Header";
 import { useEffect } from "react";
 import Footer from "./common/Footer";
-import { Link } from "react-router-dom";
 //importing RoutingCode
-// import RouterCode from "./components/RouterCode";
+import RouterCode from "./components/RouterCode";
 function App() {
-  function SetTitle() {
-    useEffect(() => {
-      document.title = "React Application";
-    }, []);
-  }
+  useEffect(() => {
+    document.title = "React Application";
+  }, []);
   return (
     <>
+      {/* importing the header */}
       <Header />
-      {/* Calling the component using the import statement and calling it here */}
-      <SetTitle />
       <>
         {/* importing Routing Codes */}
-        <nav>
-          <Link to="/">Counter</Link> | <Link to="/form">Form</Link> |{" "}
-          <Link to="/color">Color</Link> | <Link to="/api">Fetch API</Link> |{" "}
-          <Link to="/axios">Axios</Link> | <Link to="/card">About US</Link>{" "}
-        </nav>
-        {/* <RouterCode /> */}
+        <RouterCode />
       </>
+      {/* importing the footer */}
       <Footer />
     </>
   );
